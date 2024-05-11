@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  line-height: 1.6;
+  line-height: 1.55;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -49,5 +49,33 @@ h6 {
 h1,
 h2,
 h3 {
-  line-height: 1;
+  line-height: 1.4;
+}
+
+/** General styles **/
+
+:root {
+  font-size: 15px;
+
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  padding: 6rem 2rem;
+  color: var(--grayish-blue);
+  background-color: var(--very-light-gray);
 }
