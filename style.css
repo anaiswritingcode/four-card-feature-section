@@ -254,5 +254,6 @@ body {
 @media (min-width: 800px) {
   .attribution {
     margin-top: auto;
+    padding-top: 0.8rem;
   }
 }
