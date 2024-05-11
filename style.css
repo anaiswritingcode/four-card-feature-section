@@ -79,6 +79,12 @@ body {
   background-color: var(--very-light-gray);
 }
 
+@media (min-width: 600px) {
+  body {
+    gap: 4.1rem;
+  }
+}
+
 /** Header **/
 
 .header {
@@ -125,6 +131,7 @@ body {
 
 @media (min-width: 800px) {
   .grid {
+    max-width: 74rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
       "... two ..."
@@ -136,12 +143,15 @@ body {
   .grid > :nth-child(1) {
     grid-area: one;
   }
+
   .grid > :nth-child(2) {
     grid-area: two;
   }
+
   .grid > :nth-child(3) {
     grid-area: three;
   }
+
   .grid > :nth-child(4) {
     grid-area: four;
   }
@@ -156,12 +166,13 @@ body {
 .grid__card {
   padding: 1.5rem 1.8rem;
   border-radius: 0.6rem;
-  border-top: 0.3rem solid var(--cyan);
+  border-top: 0.35rem solid;
   background-color: #fff;
+  box-shadow: 0 1rem 1.5rem -0.5rem #d6e4f1;
 }
 
 .grid__card h2 {
-  font-size: 1.35rem;
+  font-size: 1.32rem;
   color: var(--very-dark-blue);
   margin-bottom: 0.25rem;
 }
@@ -177,6 +188,43 @@ body {
   height: 57px;
   width: auto;
   float: right;
+}
+
+.grid > :nth-child(1) {
+  border-color: var(--cyan);
+}
+
+.grid > :nth-child(2) {
+  border-color: var(--red);
+}
+
+.grid > :nth-child(3) {
+  border-color: var(--orange);
+}
+
+.grid > :nth-child(4) {
+  border-color: var(--blue);
+}
+
+@media (min-width: 800px) {
+  .grid__card {
+    padding: 1.7rem 2.1rem;
+  }
+
+  .grid__card h2 {
+    margin-bottom: 0.6rem;
+  }
+
+  .grid__card p {
+    margin-bottom: 3rem;
+    line-height: 1.8;
+  }
+
+  .grid__card img {
+    height: 64px;
+    width: auto;
+    transform: translate(0, -6px);
+  }
 }
 
 /** Attribution **/
