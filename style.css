@@ -229,9 +229,24 @@ body {
 
 /** Attribution **/
 
+.attribution {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.attribution a {
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--grayish-blue);
+  transition: all ease 0.2s;
+}
+
+.attribution a:is(:hover, :focus) {
+  color: var(--very-dark-blue);
+}
+
 @media (min-width: 800px) {
   .attribution {
     margin-top: auto;
-    text-align: center;
   }
 }
