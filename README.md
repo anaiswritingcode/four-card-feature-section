@@ -24,7 +24,7 @@ The challenge required that users should be able to:
 In this project I implemented:
 
 - BEM notation
-- Variable custom CSS properties
+- Custom CSS properties
 - Media queries
 - Mobile-first approach
 - Semantic HTML
