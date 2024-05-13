@@ -223,11 +223,13 @@ body {
 
   .grid__card h2 {
     margin-bottom: 0.6rem;
+    font-size: 1.32rem;
   }
 
   .grid__card p {
-    margin-bottom: 3rem;
+    margin-bottom: 3.05rem;
     line-height: 1.862;
+    font-size: 0.82rem;
   }
 
   .grid__card img {
