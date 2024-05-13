@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  line-height: 1.7;
+  line-height: 1.658;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -70,11 +70,11 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 4.8rem;
+  gap: 4.87rem;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
-  font-size: 1rem;
-  padding: 5.5rem 2.2rem 2rem;
+  font-size: 0.995rem;
+  padding: 5.6rem 2.15rem 2rem;
   color: var(--grayish-blue);
   background-color: var(--very-light-gray);
 }
@@ -82,6 +82,7 @@ body {
 @media (min-width: 600px) {
   body {
     gap: 4.1rem;
+    padding: 5.4rem 2.2rem 2rem;
   }
 }
 
@@ -107,6 +108,7 @@ body {
   .header__title {
     font-size: 2.43rem;
     line-height: 1.4;
+    margin-bottom: 1.13rem;
   }
 }
 
@@ -130,7 +132,7 @@ body {
 .grid {
   display: grid;
   width: 100%;
-  gap: 2rem;
+  gap: 1.6rem;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
 }
@@ -138,6 +140,7 @@ body {
 @media (min-width: 800px) {
   .grid {
     max-width: 74rem;
+    gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
       "... two ..."
@@ -170,24 +173,25 @@ body {
 /** Cards **/
 
 .grid__card {
-  padding: 1.5rem 1.8rem;
+  padding: 1.5rem 1.87rem 1.8rem;
   border-radius: 0.6rem;
   border-top: 0.35rem solid;
   background-color: #fff;
-  box-shadow: 0 1rem 1.5rem -0.5rem #d6e4f1;
+  box-shadow: 0 1rem 1.5rem -0.5rem #c6d6e5;
 }
 
 .grid__card h2 {
-  font-size: 1.32rem;
+  font-size: 1.33rem;
   color: var(--very-dark-blue);
   margin-bottom: 0.25rem;
 }
 
 .grid__card p {
-  font-size: 0.85rem;
+  font-size: 0.825rem;
   font-weight: 400;
-  letter-spacing: 0.2px;
-  margin-bottom: 2.3rem;
+  line-height: 1.87;
+  letter-spacing: 0.4px;
+  margin-bottom: 2.22rem;
 }
 
 .grid__card img {
@@ -214,7 +218,7 @@ body {
 
 @media (min-width: 800px) {
   .grid__card {
-    padding: 1.7rem 2.1rem;
+    padding: 1.75rem 2.1rem 1.728rem;
   }
 
   .grid__card h2 {
@@ -223,7 +227,7 @@ body {
 
   .grid__card p {
     margin-bottom: 3rem;
-    line-height: 1.8;
+    line-height: 1.862;
   }
 
   .grid__card img {
